@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	i := 1
+	for i <= 4 {
+		fmt.Println("Karsin Kamakotti says Hi!!")
+		i = i + 1
+	}
+
+	for j := 1; j < 5; j++ {
+		fmt.Println(j)
+	}
+
+	for {
+		fmt.Println("For loop")
+		break
+	}
+}

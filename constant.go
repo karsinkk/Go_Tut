@@ -11,9 +11,9 @@ func main() {
 
 	fmt.Println(s)
 
-	const n = 3737983498394893
+	const n = 2394879240
 
-	const d = 3e23 / n
+	const d = 3e20 / n
 	fmt.Println(d)
 
 	fmt.Println(float64(d))
