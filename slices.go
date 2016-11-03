@@ -6,7 +6,10 @@ func main() {
 
 	a := make([]string, 3)
 
-	fmt.Println("init:", a)
+	x := make([]int, 3)
+
+	fmt.Println("init string:", a)
+	fmt.Println("init int:", x)
 
 	a[0] = "Karsin"
 	a[1] = "Kamakotti"
