@@ -13,7 +13,14 @@ func main() {
 		done <- true
 	}(11)
 
-	fmt.Println("Kamakotti")
+	go func(arg int) {
+		for i := 0; i < arg; i++ {
+			fmt.Println("Kamakotti")
+		}
+		done <- true
+	}(6)
+
+	fmt.Println("GO")
 	<-done
 
 }
